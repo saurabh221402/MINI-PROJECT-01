@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+    <div class="nav">
+        <div class="h"> <button class="back" onclick="goback()"><i class="fa fa-home" style="font-size:76px"></i></button></div>
+        <div class="">   <h1 class="finalheading"><u>WORD RECOGNIGATION</u></h1></div>
+        <div class="r"> <abbr title="FOR EACH RIGHT ANSWER 10 MARKS REWARD AND 5MARKS DEDUCT FOR WRONG ONE" style="font-size:40px"><b>RULES</b></abbr></div>
+    </div>
+    <div class="mainbox">
+        <div class="but" id="prev"></div>
+    <div  class="box">
+        <div class="frame" id="mnf">
+<div class="one" id="k">
+  <div class="hpname" > <p>MAHATMA GANDHI</p></div>
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+</div>
+<div class="downitem">
+<input type="text" class="answer" placeholder="ANSWER HERE...">
+<br>
+<button onclick="check()" id="chek">CHECK</button>
+<span id="remark">*money view</span>
+</div>
+        </div>
+
+        <div class="frame" id="mnf">
+            <div class="one" id="k">
+                <div class="hpname" > <p>BARACK OBAMA</p></div>
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+            </div>
+            
+            <input type="text" class="answer" placeholder="ANSWER HERE...">
+            <br>
+            <button onclick="check()" id="chek">CHECK</button>
+            <span id="remark">*BLACK P</span>
+                    </div>
+
+
+                    <div class="frame" id="mnf">
+                        <div class="one" id="k">
+                            <div class="hpname" >  <p>HRITIK ROSHAN</p></div>
+                            <div class="c1"></div>
+                            <div class="c2"></div>
+                            <div class="c3"></div>
+                            <div class="c4"></div>
+                            <div class="c5"></div>
+                        </div>
+                        
+                        <input type="text" class="answer" placeholder="ANSWER HERE...">
+                        <br>
+                        <button onclick="check()" id="chek">CHECK</button>
+                        <span id="remark">*most handsome</span>
+                                </div>
+                                
+        <div class="frame" id="mnf">
+            <div class="one" id="k">
+                <div class="hpname" >  <p>LEONARDO DI VINCI</p></div>
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+            </div>
+            
+            <input type="text" class="answer" placeholder="ANSWER HERE...">
+            <br>
+            <button onclick="check()" id="chek">CHECK</button>
+            <span id="remark">*monalisa</span>
+                    </div>
+
+           <div class="frame" id="mnf">
+               <div class="one" id="k">
+                <div class="hpname" >  <p>QUEEN ELIZABETH</p></div>
+                   <div class="c1"></div>
+                   <div class="c2"></div>
+                   <div class="c3"></div>
+                   <div class="c4"></div>
+                   <div class="c5"></div>
+               </div>
+               
+               <input type="text" class="answer" placeholder="ANSWER HERE...">
+               <br>
+               <button onclick="check()" id="chek">CHECK</button>
+               <span id="remark">*RIP</span>
+                       </div>
+           <div class="frame" id="mnf">
+               <div class="one" id="k">
+                <div class="hpname" >  <p>CRITIONO RONALDO</p></div>
+                   <div class="c1"></div>
+                   <div class="c2"></div>
+                   <div class="c3"></div>
+                   <div class="c4"></div>
+                   <div class="c5"></div>
+               </div>
+               
+               <input type="text" class="answer" placeholder="ANSWER HERE...">
+               <br>
+               <button onclick="check()" id="chek">CHECK</button>
+               <span id="remark">*REAL MADD</span>
+ </div>
+
+        <div class="frame" id="mnf">
+                 <h1 class="finalheading">FINAL RESULT</h1>
+                 <button onclick="sumbit()" class="sumbut">Sumbit</button><br><br><br>
+                 <span class="finalremark"></span>
+             </div>
+
+        </div>
+        <div class="but" id="next"></div>
+    </div>   
+</div>
+
+    <audio id="wrongg" src="sound/wrong.wav"></audio>
+     <audio id="rightt" src="sound/right.mp3"></audio>
+    <script src="ds.js"></script>
+</body>
+</html>

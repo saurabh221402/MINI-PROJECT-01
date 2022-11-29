@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="bd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <button class="back" onclick="goback()"><i class="fa fa-home" style="font-size:26px"></i></button>
+    <div class="name">
+        <div class="time">Time:<p id="tt"></p></div>
+        <div class="title">
+        
+        </div>
+        
+        <div class="score">Score:<p id="nn"></p></div>
+    </div>
+    <div id="downbox">
+        <div class="but" id="prev"></div>
+        <div id="list">
+            <div id="one" class="k">1
+                 <div class="o">
+                    <img src="https://i.postimg.cc/8kLtjQnm/bill.jpg">
+                 </div>
+                 <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt">check</button>
+                   <span class="result"><p class="remark">* money with brain</p></span>
+            </div>
+            <div id="two" class="k">2
+                <div class="o">
+                    <img src="https://i.postimg.cc/rF3XMLdC/obama.jpg">
+                </div>
+                <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt">check</button>
+                   <span class="result"><p class="remark">* most followed</p></span>
+            </div>
+            <div id="three" class="k">3
+                <div class="o">
+                    <img src="https://i.postimg.cc/W3HSgsc5/kovind.jpg">
+                </div>
+                <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt" >check</button>
+                   <span class="result"><p class="remark">* serve the top service in india</p></span>
+            </div>
+            <div id="four" class="k">4
+                <div class="o">
+                    <img src="https://i.postimg.cc/vBJqCG2c/lama.jpg">
+                </div>
+                <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt">check</button>
+                   <span class="result"><p class="remark">* china taiwan india</p></span>
+            </div>
+            <div id="five" class="k">5
+                <div class="o">
+                    <img src="https://i.postimg.cc/xTgtYGcv/abraham.png">
+                </div>
+                <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt">check</button>
+                <span class="result"><p class="remark">* american voice</p></span>
+            </div>
+
+            <div id="six" class="k">6
+                <div class="o">
+                    <img src="https://i.postimg.cc/6pggbr8v/rona.jpg">
+                </div>
+                <span class="answ">
+                    <h1>  Answer: <input class="ans" type="text"></h1>
+                   </span>
+                   <button onclick="check()" id="checkbutt">check</button>
+                   <span class="result"><p class="remark">* world class player</p></span>
+            </div>
+
+            <div class="k" id="final">
+                <h1 class="finalheading">FINAL RESULT</h1>
+                <button onclick="sumbit()" id="checkbutt">Sumbit</button>
+                <p class="finalremark"></p>
+            </div>
+
+             
+        </div>
+        <div class="but" id="next"> </div>
+
+    </div>
+    </div>
+    <audio id="wrong" src="sound/wrong.wav"></audio>
+     <audio id="right" src="sound/right.mp3"></audio>
+
+    <script src="bs.js"></script>
+</body>
+</html>

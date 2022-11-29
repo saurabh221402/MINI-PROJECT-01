@@ -1,0 +1,100 @@
+*
+{
+    margin: 9px auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body
+{
+        background-image: url(" https://i.postimg.cc/R03PHY5w/Screenshot-2022-11-22-171716.png");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+}
+
+.navbox
+{
+    width: 90vw;
+    height: 5vh;
+    margin-top: 6vh;
+    
+}
+
+.title
+{
+    width: 80vw;
+    height: 20vh;
+    
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 3vh;
+    padding-top: 6vh;
+    box-sizing: border-box;
+}
+.gamelist
+{
+     display: flex;
+   width: 75vw;
+    height: 45vh;
+     
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gamelist div
+{
+    width: 22vw;
+    height: 37vh;
+    margin-top: auto;
+    border-radius: 20%;
+    transition-duration: .2s;
+     
+}
+.gamelist div:hover 
+{
+    transform: scale(1.1);
+    
+}
+ 
+.pp
+{
+    background-image: url("https://i.postimg.cc/13BvjYqN/ppimage.png");
+    background-size: 23vw 37vh;
+    background-repeat: no-repeat;
+}
+.ir
+{
+    background-image: url("https://i.postimg.cc/xT4ZfZCD/lens-focusing-on-nature-260nw-1590170692.webp");
+    background-size: 23vw 39vh;
+    background-repeat: no-repeat;
+}
+.wr
+{
+    background-image: url("https://i.postimg.cc/Vv1FLqyC/wwwword.png");
+    background-size:23vw 37vh;
+    background-repeat:no-repeat;
+}
+.footer
+{
+    width: 85vw;
+    height: 5vh;
+    margin-top: 10vh;
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a p
+{
+  font-size: 2em;  
+  text-align: center;
+  color: black;
+  overflow: hidden;
+  
+}
+a
+{
+    text-decoration: none;
+}

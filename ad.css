@@ -1,0 +1,129 @@
+*
+{
+    background-color:pink;
+    font-size: 1em;
+}
+
+body {
+    
+}
+
+#frame
+{
+    border:2px solid rgb(38, 57, 77) ;
+    height:100%;
+    overflow:hidden ;
+    position:relative  ;
+}
+
+.main
+{
+    display:flex;
+    height:75%;
+    justify-content:space-between;
+    border:1px solid lime;
+}
+.main div
+{
+    margin:3px;
+}
+
+.box div
+{
+    font-size:150%;
+    font-weight: bolder;
+    user-select:none;
+    box-sizing:border-box ;
+    padding:10px;
+    width:30%;
+    height:15.5%;
+    background:black;
+    margin:2px;
+    border:2px solid red;
+    overflow:hidden ;
+    text-align: center;
+    border-radius:20%;
+}
+
+
+.box
+{
+   
+    width:70%;
+    display:flex;
+    flex-wrap:wrap;
+    border:2px solid blue;
+    box-sizing:border-box ;
+    justify-content:space-between;
+    overflow:hidden ;
+}
+
+.sidebox
+{
+    display:flex;
+    flex-direction:column;
+    border:1px solid blue;
+    width:27%;
+   
+    overflow:hidden ;
+}
+.circle
+{
+   
+}
+
+.sidebox div
+{
+    background-color: transparent;
+    height:60px;
+    font-size: 2em;
+}
+
+.name
+{
+    font-family:"cursive",serif;
+}
+
+.result
+{
+    border:2px solid black;
+    height:16%;
+    width:87%;
+    font-family:"ariel",serif;
+    margin:10px;
+    font-size:1.5em;
+    padding:10px;
+    background-color:lime;
+    
+}
+.magic div
+{
+  
+    height:80%;
+    width:70%;
+    border: 1px solid transparent;
+
+    background-image: url("https://i.postimg.cc/d1bJGsR2/help.png");
+    background-size:120px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(2);
+    font-size:25px;
+    margin-top: 9px;
+   
+}
+.magic div:hover{
+    transform: scale(2.3);
+}
+#se
+{
+    background:lime;
+}
+.magic
+{
+   
+}
+.res{
+    transform: scale(2) translate(15px,5px);
+
+}
