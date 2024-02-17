@@ -27,7 +27,7 @@
 element.sort(() => 0.5 - Math.random());
   
   //declaration and initilisation
-const eledisplay=document.querySelector(".box");
+let eledisplay=document.querySelector(".box");
 let cardchose =[];
 let cardchoseid = [];
 var n=5;
@@ -35,6 +35,7 @@ var s=0;
 var stop;
 var t=0;
 var won= element.length /2;
+let current;
 // const hi= 100/(18/3);
 //board formation with block
 function board()
@@ -66,7 +67,7 @@ const id=this.getAttribute("data-id");
 var auudio=document.getElementById("clicksound");
 auudio.play();
 
-cardchose.push(cardid );
+cardchose.push(cardid);
 cardchoseid.push(id);
 // alert(id);
 // cardchose.style.display="block";
@@ -82,7 +83,7 @@ setTimeout(checkmatch,400);
 //match checking algo
 function checkmatch()
 {
-const current= document.querySelectorAll(".box div");
+current= document.querySelectorAll(".box div");
 //for same block choose
 if(cardchoseid[0]=== cardchoseid[1])
 {
@@ -143,7 +144,7 @@ t++;
 //lifeline
 
 function help()
-{ 
+{
 n=n-15;
 document.querySelector("#score").innerHTML=n;
 
@@ -154,6 +155,7 @@ setTimeout(ggg,200);
 }
 function ggg()
 {
+  cardchose =[];
 const curren= document.querySelectorAll(".box div");
 for(let j=0; j< element.length;j++)
 {
@@ -183,6 +185,9 @@ if(confirm("do you want to restart "))
 s=0;
 t=0;
 n=0;
+element.sort(() => 0.5 - Math.random());
+eledisplay.innerHTML="";
+board();
 for(let k=0;k<element.length;k++)
 {
 curre[k].style.visibility  ="visible ";
